@@ -90,9 +90,9 @@ The interaction effect estimate for the Small opening and Thin solder is 9.653 s
 
 4.  Medium Opening, Thin Solder: 0.393 + 2.407 + 2.280 - .740 = 4.340 \# of skips
 
-5.  Small Opening, Thin Solder: 0.393 + 5.127 = 5.520 \# of skips
+5.  Small Opening, Thick Solder: 0.393 + 5.127 = 5.520 \# of skips
 
-6.  Small Opening, Thick Solder: 0.393 + 5.127 + 2.280 + 9.653 = 17.453 \# of skips
+6.  Small Opening, Thin Solder: 0.393 + 5.127 + 2.280 + 9.653 = 17.453 \# of skips
 
 Based on these combinations, I would recommend having the Large Opening size and the Thick Solder. This gives the lowest average number of skips in the process, of 0.393 as an average.
 
@@ -159,7 +159,7 @@ confint(model_grocery_c, "TypeGrocery")
 
 ```
 
-Compared with ordinary grocery stores (like Albertsons, HEB, or Krogers), convenience stores charge somewhere between 0.41 and 0.92 dollars more for the same product.
+Compared with ordinary grocery stores (like Albertsons, HEB, or Krogers), convenience stores charge somewhere between 0.41 and 0.92 dollars more for the same product (baseline in this model was Convenience stores).
 
 ### Part D
 
